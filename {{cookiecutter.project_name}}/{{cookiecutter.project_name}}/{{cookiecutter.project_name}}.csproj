@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <Platforms>x64</Platforms>
     <Company>{{cookiecutter.author}}</Company>
     <AssemblyTitle>{{cookiecutter.project_name}}</AssemblyTitle>
@@ -59,7 +59,7 @@
       <HintPath>$(DalamudLibPath)Lumina.Excel.dll</HintPath>
       <Private>false</Private>
     </Reference>
-    <PackageReference Include="DalamudPackager" Version="2.1.8" />
+    <PackageReference Include="DalamudPackager" Version="2.1.11" />
   </ItemGroup>
 
   {% if cookiecutter.include_goat == "yes" %}
