@@ -3,8 +3,8 @@ using System;
 
 namespace UIDev
 {
-    interface IPluginUIMock : IDisposable
-    {
-        void Initialize(SimpleImGuiScene scene);
-    }
+  interface IPluginUIMock : IDisposable
+  {
+    void Initialize(SimpleImGuiScene scene);
+  }
 }
